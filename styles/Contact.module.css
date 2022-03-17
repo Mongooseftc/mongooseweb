@@ -1,0 +1,38 @@
+.contact {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('../public/images/phone.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.contact h1 {
+    font-weight: 300;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.contact button {
+    border: 0;
+    border-radius: 20px;
+    background-color: #F28000;
+    display: flex;
+    margin-top: 25px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.contact button:hover {
+    cursor: pointer;
+}
+
+.space {
+    width: 10px;
+}

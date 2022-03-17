@@ -1,0 +1,29 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+.nav .brand h1 {
+    color: #FF8200;
+    font-size: 25px;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    cursor: pointer;
+    color: #FF8200;
+}

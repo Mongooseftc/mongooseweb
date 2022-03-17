@@ -1,0 +1,31 @@
+.serviceCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 300px;
+}
+
+.serviceCard div {
+    color: #F28000;
+    margin-top: 60px;
+    font-size: 40px;
+}
+
+.serviceCard h1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.serviceCard p {
+    color: #fff;
+}
+
+@media (max-width: 800px) {
+    .serviceCard p{
+        font-size: 15px;
+    }
+}

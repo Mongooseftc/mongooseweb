@@ -1,0 +1,52 @@
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('../public/images/cryptocurrencies.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.presentation {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+    padding-left: 100px;
+    width: 50%;
+}
+
+.presentation h1 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.presentation button {
+    border: 0;
+    border-radius: 20px;
+    background-color: #FF8020;
+    color: #000;
+    margin-top: 50px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    height: 50px;
+    width: 200px;
+}
+
+.presentation button:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 760px) {
+
+    .presentation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+}
