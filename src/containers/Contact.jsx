@@ -8,7 +8,7 @@ const Contact = () => {
             <h1>Contáctanos</h1>
             <a href="mailto:mongoose.fintech.company@gmail.com">
             <button>
-                <i class="bi bi-envelope"></i>
+                <i className="bi bi-envelope"></i>
                 <div className={styles.space}></div>
                 Envía un email
             </button>

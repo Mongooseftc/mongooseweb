@@ -27,3 +27,59 @@
     cursor: pointer;
     color: #FF8200;
 }
+
+.menuBtn {
+    display: none;
+}
+
+.fullNav {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .nav ul {
+        display: none;
+    }
+
+    .menuBtn {
+        border: 0;
+        background-color: transparent;
+        color: #FF8200;
+        display: inline-block;
+        font-size: 30px;
+    }
+
+    .fullNav {
+        background-color: #000;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        height: 100vh;
+        width: 100%;
+        z-index: 999;
+    }
+
+    .fullNav ul li {
+        margin-bottom: 18px;
+    }
+
+    .fullNav ul li a {
+        border-bottom: 2px solid #FF8200;
+        color: #fff;
+        text-decoration: none;
+        font-size: 22px;
+    }
+
+    .fullNav button {
+        border: 0;
+        background-color: transparent;
+        color: #FF8200;
+        font-size: 40px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+}
